@@ -5,12 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../clothing.css/style.css">
   <script defer src="../clothing.js/style.js"></script>
+  <link rel="stylesheet" href="../clothing.css/product.css">
+  <script defer src="../clothing.js/product.js"></script>
   <title>page product </title>
 </head>
 <body>
   
   <nav class="navbar"></nav>
 
+  <section class="product-details">
+    <div class="image-slider">
+      <div class="product-images">
+        <img src="images/pro1.jpg" class="active" alt="">
+        <img src="images/pro2.jpg" alt="">
+        <img src="images/pro3.jpg" alt="">
+        <img src="images/pro4.jpg" alt="">
+      </div>
+    </div>
+    <div class="details">
+      <h2 class="product-brand">Colombia</h2>
+      <p class="product-short-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, sed temporibus est esse pariatur ducimus natus aperiam neque vero, asperiores voluptatem, dicta vitae laborum ea repellendus numquam blanditiis eos fuga!</p>
+    <span class="price">$99</span>
+    <span class="actual-price">$200</span>
+    <span class="price-discount"> ( 50% OFF)</span>
+    <p class="product-sub-heading">select-size</p>
+
+
+    <input type="radio" value="s" hidden id="s-size">
+    <label for="s-size" class="size-radio-btn check">S</label>
+    <input type="radio" value="m" hidden id="m-size">
+    <label for="m-size" class="size-radio-btn">M</label> 
+    <input type="radio" value="l" hidden id="l-size">
+    <label for="l-size" class="size-radio-btn">L</label>  
+    <input type="radio" value="xl" hidden id="xl-size">
+    <label for="xl-size" class="size-radio-btn">XL</label>  
+    <input type="radio" value="xxl" hidden id="xxl-size">
+    <label for="xxl-size" class="size-radio-btn">XXL</label>
+
+    <button class="btn cart-btn">add to cart</button>
+    <button class="btn">add to wishlist</button>
+    </div>
+  </section>
+
+  <section class="detail-des">
+    <h2 class="heading">description</h2>
+    <p class="des">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod maxime maiores sequi fugiat dignissimos alias pariatur iusto accusamus! Fugiat maxime accusamus unde voluptas iusto, nemo tempora. In commodi reprehenderit mollitia.</p>
+  </section>
 
 <!-- cards-container -->
 
