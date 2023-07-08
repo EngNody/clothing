@@ -159,7 +159,7 @@ border-radius: 50%;
   width: 100%;
   height:calc(100vh - 145px);
   /* background-image:url(../clothing.html/images/ppp.jpeg) ; */
-  background-image:url(../clothing.html/images/shopping1.jpeg) ;
+  background-image:url(../images/shopping1.jpeg) ;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
