@@ -8,16 +8,16 @@ const navbar= () => {
 nav.innerHTML=`
 <div class="nav">
 <div class="allbrand-logo">
-      <img src="images/logo5-removebg-preview.png" class="brand-logo" alt="">
-      <img src="images/logo10-removebg-preview.png" class="brand-logo" alt="">  
+      <img src="../images/logo5-removebg-preview.png" class="brand-logo" alt="">
+      <img src="../images/logo10-removebg-preview.png" class="brand-logo" alt="">  
 </div>
 <div class="nav-items">
   <div class="search">
     <input type="text" class="search-box" placeholder="search prand , product">
   <button class="search-btn">Search</button>
   </div>
-  <a href="#"><img src="images/user.jpg" alt=""></a>
-  <a href="#"><img src="images/cart-removebg-preview.png" alt=""></a>
+  <a href="#"><img src="../images/user.jpg" alt=""></a>
+  <a href="#"><img src="../images/cart-removebg-preview.png" alt=""></a>
 </div>
 <div class="nav-mobile">
 <span class="line line1"></span>
@@ -53,7 +53,7 @@ const footer = () => {
   
   <div class="footer-container">
   <div class="logocircle">
-      <img src="images/logo5.jpg" class="logo" alt="">
+      <img src="../images/logo5.jpg" class="logo" alt="">
   </div> 
    <div class="footer-ul-container">
   <ul class="category">
